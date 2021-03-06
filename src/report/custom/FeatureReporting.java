@@ -27,11 +27,6 @@ public class FeatureReporting extends ReportsSession {
   private String featureReportFilePath ="";
 
 
-  /**
-   * Create a header functionality for master file html
-   *
-   * @author Ankit
-   */
   public synchronized void createFeatureFileHeader(String featureName) {
     try {
       totalFailTestCase = 0;
@@ -223,7 +218,7 @@ public class FeatureReporting extends ReportsSession {
     masterPrintHtml.println("<tbody>");
 
     //Setting the header for the table
-    masterPrintHtml.println("<tr bgcolor='#92DAEA'>");
+    masterPrintHtml.println("<tr bgcolor='#c6a9ff'>");
     masterPrintHtml.println("<td width='auto' valign='middle' align='center'>");
     if(driverType.equalsIgnoreCase("android") || driverType.equalsIgnoreCase("ios")) {
       masterPrintHtml
@@ -260,7 +255,6 @@ public class FeatureReporting extends ReportsSession {
   /**
    * create footer part of the master file html
    *
-   * @author Ankit
    */
   private void completeSuiteFileFooter(MailReport finalReport) {
     openSuiteFile();

@@ -11,7 +11,6 @@ public class MachineSearch {
    * @param dir given dir to find the fileName
    * @param fileName the name of fileName which is in the given dir
    * @return location of the fileName
-   * @author Ankit
    */
 
   public String searchMachineForFile(String dir, String fileName) {
@@ -135,7 +134,6 @@ public class MachineSearch {
    * @param dir given dir to find the fileName
    * @param name the name of fileName which is in the given dir
    * @return location of the fileName
-   * @author Ankit
    */
   public String serachMachineForFileWhichStartWith(String dir, String name) {
     String filePath = "";

@@ -50,7 +50,7 @@ public class SummaryReport extends ReportsSession{
     printStream
         .println("<table class='tg' border='2' style='border-collapse:collapse;width:100%;'>");
     printStream.println("<tbody>");
-    printStream.println("<tr bgcolor='#92DAEA'>");
+    printStream.println("<tr bgcolor='#c6a9ff'>");
     printStream.println("<td width='auto' valign='middle' align='center'>");
     if(driverType.equalsIgnoreCase("android") || driverType.equalsIgnoreCase("ios")) {
       printStream

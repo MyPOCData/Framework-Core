@@ -2,10 +2,6 @@ package report.custom;
 
 import java.io.File;
 
-/**
- * @author Ankit Gupta
- *
- */
 //public class ReportingSession extends SeleniumWrappers{
 
 public class ReportsSession {

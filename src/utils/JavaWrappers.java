@@ -114,7 +114,6 @@ public class JavaWrappers {
    *
    * @param format
    * @return
-   * @author Ankit
    */
   public static String getYesterdayDateString(String format) {
     DateFormat dateFormat = new SimpleDateFormat(format);
@@ -147,7 +146,6 @@ public class JavaWrappers {
   /**
    * Return the date in the given format like(HH:mmm:ss)
    * @return Current date in the given format
-   * @author Ankit
    */
   public static String getCurrentTime(String format) {
 
@@ -161,7 +159,6 @@ public class JavaWrappers {
    * @param startTime in mili second
    * @param endTime   in mili second
    * @return
-   * @author Ankit
    */
   public static String getTime(long startTime, long endTime) {
     long diff = endTime - startTime;
@@ -202,7 +199,6 @@ public class JavaWrappers {
    * Subtract all the values from given string except number and return
    * @param value
    * @return number from the given string
-   * @author Ankit
    */
   public static String getNumericValue(String value) {
 
@@ -227,7 +223,6 @@ public class JavaWrappers {
    *
    * @param number
    * @return
-   * @author Ankit
    * <p>Suppose you entered A string which have number: 1456089
    * then method will return 14,56,089 as in Indian Currency format
    */
@@ -251,7 +246,6 @@ public class JavaWrappers {
    * @param folderName   Name of the folder
    * @return file of the folder
    * @throws IOException
-   * @author Ankit
    */
   public synchronized static File createDir(String pathTofolder, String folderName)
       throws IOException {
@@ -285,7 +279,6 @@ public class JavaWrappers {
    * @param folderName   Name of the folder
    * @return file of the folder
    * @throws IOException
-   * @author Ankit
    */
   public synchronized static File createDirIfNotExist(String pathTofolder, String folderName)
       throws IOException {
@@ -318,7 +311,6 @@ public class JavaWrappers {
    * Will delete the folder if Exist
    *
    * @param pathFolder
-   * @author Ankit
    */
   public static void deleteExistingFolder(File pathFolder) {
     if (pathFolder.exists()) {
